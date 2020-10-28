@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* command/ is a shortcut */
+
+.hmpage-wrapper {
+  background: url(https://images.unsplash.com/photo-1602427770688-c214489cd51a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15px;
+}
+.menu ul {
+  display: flex;
+}
+.menu li {
+  margin: 0 10px;
+}
+.title {
+  color: white;
+  align-self: center;
+  text-align: center;
+}
+.title h1 {
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+.button-wrapper {
+  display: flex;
+}
+
+.button-wrapper div {
+  background: yellow;
+  color: black;
+  margin-left: 1px;
+  padding: 10px;
+}
